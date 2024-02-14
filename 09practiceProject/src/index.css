@@ -1,0 +1,120 @@
+body{
+  background-color: black;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  width: 200px;
+  background-color: gray;
+  border: 2px splid lightcoral;
+  margin: 20px;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 3px 3px lightblue;
+  margin-bottom: 40px;
+}
+
+.cardImg{
+  height: 80%;
+}
+.cardImg img{
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.className{
+  display: flex;
+  flex-direction: column;
+}
+
+.className h3{
+   font-size: 15px;
+   font-weight: 600;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home{
+  display: flex;
+  justify-content: space-evenly;
+   flex-wrap:wrap;
+}
+
+
+
+.btn {
+  background: rgb(113, 113, 235);
+  font-size: 15px;
+  border: none;
+  padding: 8px 30px;
+  margin-top: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+.movieInfo{
+  display: flex;
+  background-color: rgb(205, 204, 204);
+  padding: 0;
+  height: 95vh;
+}
+
+.movieImg{
+  width: 100%;
+}
+
+
+.movieImg img{
+  width: 100%;
+  height: 100%;
+}
+
+.movieDetail h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.movieDetail{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.movieExtra{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.movieExtra span{
+  font-weight: 800;
+}
+
+.btnExtra{
+  background: rgb(241, 241, 247);
+  font-size: 25px;
+  border: none;
+  padding: 8px 30px;
+  margin-top: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btnExtra a{
+  text-decoration: none;
+}
